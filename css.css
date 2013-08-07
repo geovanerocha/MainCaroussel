@@ -1,0 +1,8 @@
+*{margin: 0; padding: 0;}
+body{background: #e2e2e2;}
+.caroussel-wrapper{width: 833px; margin: 0 auto;overflow: hidden; height: 500px; margin-top: 100px;}
+#caroussel-list{width: 10000px; list-style: none; position: relative; height: 500px; left: 0px; padding-left: 33px;}
+#caroussel-list li{width: 805px; height: 500px; float: left; padding: 0px;}
+#caroussel-list img{border-radius: 10px;}
+.arrow-previous{position: relative;top: 250px;width: 33px; height: 33px;float:left; z-index: 3; background: url('img/caroussel-arrows.png'); background-position: 67px 32px; cursor: pointer; display: none;}
+.arrow-next{position: relative;bottom: 250px;float: right;z-index: 3; width: 33px; height: 33px; background: url('img/caroussel-arrows.png'); background-position: 99px 32px; cursor: pointer;}
