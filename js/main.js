@@ -35,8 +35,8 @@ var MainCaroussel = {
 		widthLi        = carousselItem.width();
 		carousselLimit = carousselItem.length;
 		index          = 1;
-		arrowNext      = $('.arrow-next');
-		arrowPrevious  = $('.arrow-previous');
+		arrowNext      = $('.next');
+		arrowPrevious  = $('.previous');
 
 		arrowNext.on('click', MainCaroussel._next);
 		arrowPrevious.on('click', MainCaroussel._previous);
