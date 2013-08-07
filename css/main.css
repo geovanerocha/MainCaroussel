@@ -6,4 +6,6 @@ body {background: #e2e2e2;}
 #caroussel-list img {border-radius: 8px;}
 .arrow {position: relative; background: url('../img/caroussel-arrows.png'); z-index: 3; cursor: pointer; width: 33px; height: 33px;}
 .previous {top: 250px;float:left;background-position: 67px 32px;display: none;}
+.previous:hover{background-position: 67px 66px;}
 .next {bottom: 250px;float: right;background-position: 99px 32px;}
+.next:hover {background-position: 99px 66px;}
